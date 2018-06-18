@@ -64,6 +64,7 @@ public class SampleAtmosphereApplication {
 
 		@Override
 		public void addViewControllers(ViewControllerRegistry registry) {
+                        // Adding a registry variable for testing : To be removed
 			registry.addViewController("/").setViewName("forward:/home/home.html");
 		}
 
